@@ -11,3 +11,5 @@ The drawback is that while I was working on ECS, I worked on different versions 
 With the improved AI and ECS system, I had the FPS starting from 10FPS on at the start but then rise up to 80 and higher FPS with 5000 marbles and 5000 actors. (If this was in a game standpoint, it would have been happening during a loading screen.
 
 Regardless, there was another thing to try; JobSystems. So I rewrote the code for Finding the nearest marble into a Job System, that way it supports multithreaded calls. With that, from the Start it is running at 60FPS with 5000 actors and 5000 marbles and increasing with time.
+
+In Conclusion, there is definitely a lot that can be done and the DOTS system is slowly approaching in Unity. With the way it is currently, it can definitely optimise games to some extent.
